@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --yellow: #ffcc29;
+  --blue: #1d539e;
+  --gray: #828799;
+  --page-background: #f9fbfc;
+}
+
+body {
+  background-color: #f9fbfc;
+  width: auto;
+  height: auto;
+}
+
+.top {
+  width: auto;
+  height: 450px;
+  background-color: #1d539e;
+  position: relative;
+}
+
+.top .text {
+  position: absolute;
+  margin: 80px 0 0 444px;
+}
+
+.top .text h1 {
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 48px;
+  font-family: Open Sans;
+}
+
+.top .text p {
+  font-family: Open Sans;
+  font-weight: lighter;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px;
+}
+.card-1 {
+  position: relative;
+  width: 355px;
+  height: 470px;
+  background-color: #ffffff;
+  margin: -130px 0 0 167px;
+  font-family: Open Sans;
+  border-radius: 0.5rem;
+  box-shadow: 0px 3px 5px #a1a8ab;
+}
+
+.card-1 p {
+  width: 51px;
+  height: 25px;
+  color: #828799;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.card-1 p:first-child {
+  color: #1e2338;
+  font-weight: bolder;
+}
+
+.card-1 .item-1,
+.dashed {
+  margin-left: 20px;
+}
+
+.card-1 .dashed {
+  margin-top: 0px;
+}
+
+.card-1 .item-2 {
+  width: fit-content;
+  font-size: 14px;
+}
+
+.card-1 ul li {
+  color: #828799;
+  list-style: none;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: flex;
+  gap: 4px;
+}
+
+.card-1 button {
+  width: 296px;
+  height: 49px;
+  margin: 120px 0 0 20px;
+  border-radius: 00.5rem;
+  color: #1d539e;
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid #1d539e;
+  cursor: pointer;
+}
+
+.card-1 button:hover {
+  background-color: #ffcc29;
+}
