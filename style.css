@@ -120,3 +120,16 @@ button {
 .card button:hover {
   background-color: var(--yellow);
 }
+
+@media screen and (max-width: 550px) {
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card {
+    height: 250px;
+  }
+}
