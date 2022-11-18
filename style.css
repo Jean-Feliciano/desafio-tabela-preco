@@ -68,7 +68,6 @@ button {
 
 .card .pop {
   height: 76px;
-  background-color: var(--yellow);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
